@@ -227,3 +227,57 @@ h2 {
   justify-content: center;
   padding-top: 10%;
 }
+.work {
+  border: 1px solid white;
+}
+.work h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+.work .workall {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 10%;
+}
+footer {
+  padding-bottom: 10%;
+}
+footer h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+footer .contact {
+  display: flex;
+  justify-content: center;
+}
+footer form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10%;
+}
+footer input,
+footer label,
+footer textarea {
+  width: 100%;
+  margin: 5% 0;
+}
+footer input,
+footer textarea {
+  border: none;
+  border-bottom: 3px solid none;
+  background-color: none;
+}
+footer button {
+  color: black;
+  background: darkgrey;
+  width: 100%;
+  height: 5vh;
+  text-align: center;
+  font-size: 1rem;
+}
+footer button:hover {
+  background: white;
+}
