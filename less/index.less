@@ -57,3 +57,157 @@ html, body {
     height: 100%;
 }
 
+
+
+body{
+	background:black;
+}
+
+/*THESE ARE MY VARIABLES*/
+
+@font-style: 'Open Sans', sans-serif;
+@font-color:white;
+@font-space-far:10px;
+@font-space-close:-3px;
+
+
+/*THESE ARE MY MIXINS*/
+
+.center(){
+	display:flex;
+	justify-content: center;
+}
+
+.pad(){
+	padding:1%;
+}
+
+.padd(){
+	padding:10%;
+}
+
+.box(){
+	.center();
+	border:1px solid white;
+	padding-top:5%;
+	padding-bottom:5%;
+
+}
+
+.fontcenter{
+	text-align:center;
+}
+
+.column{
+	flex-direction: column;
+	width:25%;
+}
+
+/*END OF CUSTOM MIXINS*/
+
+body{
+	font-family: @font-style;
+	color:@font-color;
+}
+
+nav{
+	background:black;
+	padding:20px;
+}
+
+.container1{
+	display:flex;
+	justify-content: center;
+	justify-content: space-evenly;
+
+}
+.container1 a{
+	text-decoration:none;
+	color:white;
+}
+
+.top{
+	.center;
+	padding-top:10%;
+	padding-left:5%;
+}
+
+
+h1 {
+	font-family:@font-style;
+	font-size:4rem;
+	font-weight: bold;
+	letter-spacing:@font-space-close;
+}
+
+
+
+h2{
+	font-family:@font-style;
+	font-size:3rem;
+	font-weight: bold;
+	letter-spacing:@font-space-close;
+
+}
+
+#tops{
+	font-family:@font-style;
+	font-size:2rem;
+	font-weight:200;
+	.pad;
+	letter-spacing: @font-space-far;
+	
+}
+
+
+
+
+.about{
+	.center;
+	.padd;
+
+}
+
+.info{
+	.box;
+	font-size: 1.5rem;
+}
+
+
+.info{
+	.padd;
+}
+
+
+
+
+
+
+
+
+
+
+
+.projects{
+	.center;
+	padding-top:10%;
+}
+
+.skillz{
+	.center;
+	justify-content: space-evenly;
+	.padd;
+}
+
+.first, .second, .third{
+	.column;
+
+}
+
+.projects{
+	.center;
+	padding-top:10%;
+}
+
+
+

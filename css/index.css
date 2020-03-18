@@ -134,3 +134,96 @@ html,
 body {
   height: 100%;
 }
+body {
+  background: black;
+}
+/*THESE ARE MY VARIABLES*/
+/*THESE ARE MY MIXINS*/
+.fontcenter {
+  text-align: center;
+}
+.column {
+  flex-direction: column;
+  width: 25%;
+}
+/*END OF CUSTOM MIXINS*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+nav {
+  background: black;
+  padding: 20px;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.container1 a {
+  text-decoration: none;
+  color: white;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+  padding-left: 5%;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: -3px;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: -3px;
+}
+#tops {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+  padding: 1%;
+  letter-spacing: 10px;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  padding: 10%;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 1.5rem;
+}
+.info {
+  padding: 10%;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+.skillz {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 10%;
+}
+.first,
+.second,
+.third {
+  flex-direction: column;
+  width: 25%;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
