@@ -170,6 +170,13 @@ nav {
   padding-top: 10%;
   padding-left: 5%;
 }
+@media (max-width: 515px) {
+  .top {
+    display: flex;
+    text-align: center;
+    width: 100%;
+  }
+}
 h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 4rem;
@@ -216,16 +223,16 @@ h2 {
   justify-content: space-evenly;
   padding: 10%;
 }
-.first,
-.second,
-.third {
+.skillz .first,
+.skillz .second,
+.skillz .third {
   flex-direction: column;
   width: 25%;
 }
-.projects {
-  display: flex;
-  justify-content: center;
-  padding-top: 10%;
+@media (max-width: 515px) {
+  .skillz {
+    display: flex;
+  }
 }
 .work {
   border: 1px solid white;
@@ -240,6 +247,12 @@ h2 {
   justify-content: center;
   justify-content: space-evenly;
   padding: 10%;
+}
+@media (max-width: 515px) {
+  .work .workall {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 footer {
   padding-bottom: 10%;
@@ -280,4 +293,10 @@ footer button {
 }
 footer button:hover {
   background: white;
+}
+@media (max-width: 515px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
 }
