@@ -304,6 +304,7 @@ footer textarea {
   border-bottom: 3px solid none;
   background-color: none;
   border-radius: 10px;
+  font-size: 1.2rem;
 }
 footer button {
   color: white;
