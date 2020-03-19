@@ -152,8 +152,25 @@ body {
   color: white;
 }
 nav {
-  background: black;
+  background: dodgerblue;
   padding: 20px;
+  position: fixed;
+  width: 100%;
+}
+#accent {
+  color: dodgerblue;
+}
+#accent2 {
+  color: yellow;
+}
+#accent3 {
+  color: orange;
+}
+#accent4 {
+  color: red;
+}
+#accent5 {
+  color: hotpink;
 }
 .container1 {
   display: flex;
@@ -175,6 +192,7 @@ nav {
     display: flex;
     text-align: center;
     width: 100%;
+    padding-top: 20%;
   }
 }
 h1 {
@@ -199,7 +217,7 @@ h2 {
 .about {
   display: flex;
   justify-content: center;
-  padding: 10%;
+  padding: 5%;
 }
 .info {
   display: flex;
@@ -207,21 +225,22 @@ h2 {
   border: 1px solid white;
   padding-top: 5%;
   padding-bottom: 5%;
-  font-size: 1.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
 }
 .info {
-  padding: 10%;
+  padding: 5%;
 }
 .projects {
   display: flex;
   justify-content: center;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 .skillz {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
-  padding: 10%;
+  padding: 5%;
 }
 .skillz .first,
 .skillz .second,
@@ -236,6 +255,7 @@ h2 {
 }
 .work {
   border: 1px solid white;
+  border-radius: 10px;
 }
 .work h1 {
   display: flex;
@@ -246,7 +266,7 @@ h2 {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
-  padding: 10%;
+  padding: 5%;
 }
 @media (max-width: 515px) {
   .work .workall {
@@ -255,7 +275,7 @@ h2 {
   }
 }
 footer {
-  padding-bottom: 10%;
+  padding-bottom: 3%;
 }
 footer h2 {
   display: flex;
@@ -269,34 +289,43 @@ footer .contact {
 footer form {
   width: 80%;
   margin: 0 auto;
-  padding: 10%;
+  padding: 5%;
 }
 footer input,
 footer label,
 footer textarea {
   width: 100%;
   margin: 5% 0;
+  height: 50px;
 }
 footer input,
 footer textarea {
   border: none;
   border-bottom: 3px solid none;
   background-color: none;
+  border-radius: 10px;
 }
 footer button {
-  color: black;
-  background: darkgrey;
+  color: white;
+  background: dodgerblue;
   width: 100%;
   height: 5vh;
   text-align: center;
   font-size: 1rem;
+  border-radius: 30px;
+  border-color: black;
 }
 footer button:hover {
   background: white;
+  color: black;
 }
 @media (max-width: 515px) {
   footer {
     flex-direction: column;
     align-items: center;
   }
+}
+footer .copywright {
+  text-align: center;
+  padding-top: 9%;
 }
